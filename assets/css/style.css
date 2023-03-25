@@ -12,12 +12,22 @@
 /*===========================
     1. COMMON css 
 ===========================*/
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800");
 body {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #121212; }
+  color: #000000; }
+
+@font-face {
+  font-family: myfont;
+  src: url('assets\fonts\PingFang Heavy.ttf');
+}
+
+body {
+  font-family: myfont;
+}
 
 * {
   margin: 0;
