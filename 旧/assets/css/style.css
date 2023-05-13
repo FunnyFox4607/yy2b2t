@@ -2613,8 +2613,7 @@ p {
         background: linear-gradient(to top, #f4f6f7 0%, #deebfd 100%); }
 
 .header-area .header-content-area {
-	background-image:url('https://s1.imagehub.cc/images/2023/01/30/1dbf04adce64ca81c1e228c8635f1d51.jpeg');
-
+	background-image: url(../images/background.jpg);
     background-repeat:no-repeat;
 	background-position:center;
     background-attachment:fixed;
